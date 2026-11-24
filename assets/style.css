@@ -34,7 +34,7 @@ button, input, textarea { font: inherit; }
 button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--violet); outline-offset: 3px; }
 .container { width: min(calc(100% - 44px), var(--content)); max-width: var(--content); }
 
-/* Ambient particles, like the reference portfolio */
+
 .particulas {
   position: fixed;
   inset: 0;
@@ -51,7 +51,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 }
 @keyframes particle-drift { from { background-position: 0 0, 20px 40px, 40px 0, 0 20px; } to { background-position: 70px -50px, -30px 80px, 90px -45px, -40px 70px; } }
 
-/* Navigation */
+
 .site-header {
   position: fixed;
   inset: 0 0 auto;
@@ -72,7 +72,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .navbar-toggler:focus { box-shadow: 0 0 0 2px rgba(129,119,245,.28); }
 .navbar-toggler-icon { filter: invert(1); opacity: .85; }
 
-/* Hero */
+
 .hero {
   position: relative;
   display: flex;
@@ -117,7 +117,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .scroll-cue span { position: absolute; top: 8px; left: 50%; width: 4px; height: 7px; border-radius: 5px; background: var(--violet); transform: translateX(-50%); animation: scroll-cue 1.6s ease-in-out infinite; }
 @keyframes scroll-cue { 0%,100% { opacity: .3; transform: translate(-50%,0); } 55% { opacity: 1; transform: translate(-50%,10px); } }
 
-/* Shared sections and cards */
+
 .section-shell { position: relative; padding: 105px 0; }
 .section-tinted { background: linear-gradient(180deg, rgba(255,255,255,.018), rgba(255,255,255,.035)); border-top: 1px solid rgba(226,232,240,.055); border-bottom: 1px solid rgba(226,232,240,.055); }
 .section-heading { max-width: 760px; margin: 0 auto 42px; text-align: center; }
@@ -127,7 +127,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .glass-card { border: 1px solid rgba(226,232,240,.12); border-radius: 15px; background: linear-gradient(145deg, rgba(255,255,255,.075), rgba(255,255,255,.035)); box-shadow: 0 18px 55px rgba(0,0,0,.16); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 .glass-card:hover { border-color: rgba(167,139,250,.36); background: linear-gradient(145deg, rgba(255,255,255,.09), rgba(255,255,255,.045)); }
 
-/* About and skills */
+
 .about-card { display: grid; grid-template-columns: 1.3fr .9fr; gap: 48px; padding: 34px; }
 .about-copy h3, .skill-card h4 { margin: 0 0 13px; color: #fff; font-size: 1.18rem; font-weight: 600; }
 .about-copy p { margin: 0 0 14px; color: var(--muted); font-size: .84rem; line-height: 1.95; }
@@ -150,7 +150,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .fun-facts span { color: var(--violet); font-size: .72rem; font-weight: 600; }
 .fun-facts p { margin: 0; color: var(--muted); font-size: .76rem; }
 
-/* Knowledge areas */
 .topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 .topic-card { position: relative; min-height: 300px; padding: 29px; overflow: hidden; transition: transform 180ms var(--ease), border-color 180ms var(--ease), background 180ms var(--ease); }
 .topic-card:hover, .trend-card:hover, .project-card:hover { transform: translateY(-4px); }
@@ -159,13 +158,13 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .topic-card h3, .trend-card h3 { margin: 0 0 11px; color: #fff; font-size: 1.14rem; font-weight: 600; }
 .topic-card p, .trend-card p { margin: 0; color: var(--muted); font-size: .78rem; line-height: 1.9; }
 
-/* Technology trends */
+
 .trend-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 20px; }
 .trend-card { min-height: 315px; padding: 28px; transition: transform 180ms var(--ease), border-color 180ms var(--ease), background 180ms var(--ease); }
 .trend-card h3 { margin-top: 16px; font-size: 1.2rem; }
 .trend-tags { margin-top: 17px !important; padding-top: 13px; border-top: 1px solid var(--line); color: var(--violet) !important; font-size: .65rem !important; }
 
-/* Project gallery */
+
 .projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 20px; }
 .project-card { display: flex; flex-direction: column; overflow: hidden; transition: transform 180ms var(--ease), border-color 180ms var(--ease), background 180ms var(--ease); }
 .project-image-link { display: block; height: 205px; overflow: hidden; border-bottom: 1px solid var(--line); background: #10182a; }
@@ -185,7 +184,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .projects-note { margin: 25px 0 0; color: var(--muted); text-align: center; font-size: .76rem; }
 .projects-note a { color: var(--violet); }
 
-/* Contact */
+
 .contact-layout { display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: 65px; }
 .contact-copy h2 { margin-bottom: 18px; }
 .contact-copy h2 span { color: var(--violet); }
@@ -209,7 +208,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .form-status[data-state="error"] { color: #fca5a5; }
 .form-status[data-state="pending"] { color: #c4b5fd; }
 
-/* Footer */
+
 .site-footer { padding: 40px 0 22px; background: rgba(3,7,15,.58); border-top: 1px solid rgba(226,232,240,.08); }
 .footer-inner { display: flex; flex-direction: column; align-items: center; text-align: center; }
 .footer-brand { color: #fff; font-size: 1.12rem; font-weight: 700; letter-spacing: -.04em; }
@@ -221,7 +220,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 .footer-bottom { display: flex; width: 100%; justify-content: space-between; gap: 12px; padding-top: 17px; border-top: 1px solid rgba(226,232,240,.08); color: var(--subtle); font-size: .62rem; }
 .footer-bottom a { color: var(--muted); }
 
-/* Hidden CRUD panel */
+
 .admin-backdrop { position: fixed; inset: 0; z-index: 1100; background: rgba(0,0,0,.68); opacity: 0; visibility: hidden; transition: opacity 180ms ease, visibility 180ms ease; }
 .admin-backdrop.open { opacity: 1; visibility: visible; }
 .admin-panel { position: fixed; z-index: 1101; top: 0; right: 0; width: min(540px, 100%); height: 100dvh; padding: 25px; overflow-y: auto; border-left: 1px solid var(--line); background: #0f192a; box-shadow: -20px 0 60px rgba(0,0,0,.38); transform: translateX(102%); transition: transform 220ms var(--ease); }

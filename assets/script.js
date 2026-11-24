@@ -1,13 +1,12 @@
 const STORAGE_KEY = 'rafaelPortfolioMessages';
 
-// Configure com o e-mail que deve receber as mensagens do formulário.
-// No primeiro envio, o FormSubmit enviará uma mensagem de confirmação para esse endereço.
+
 const CONTACT_EMAIL = 'rafaelpalmiere03@gmail.com';
 const FORMSUBMIT_ENDPOINT = 'https://formsubmit.co/ajax/';
 
 const seedMessages = Array.from({ length: 20 }, (_, index) => ({
   id: `demo-${index + 1}`,
-  name: ['Alex Morgan', 'Taylor Lee', 'Jordan Smith', 'Casey Brown'][index % 4],
+  name: ['Neymar JR', 'Messi', 'Mbappe', 'Charles Leclerc'][index % 4],
   email: `visitor${index + 1}@example.com`,
   subject: ['Feedback sobre o portfólio', 'Possível colaboração', 'Dúvida sobre Front-end', 'Oportunidade de estágio'][index % 4],
   message: `Esta é a mensagem de teste número ${index + 1}, criada automaticamente para a avaliação do portfólio. Você pode editar ou excluir este registro no painel administrativo.`,
