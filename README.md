@@ -1,6 +1,6 @@
 # Rafael Palmiere — Portfólio
 
-Portfólio acadêmico e pessoal desenvolvido do zero com HTML5, CSS3, JavaScript e Bootstrap 5. A direção visual usa como referência a estrutura de portfólio do tutorial do DevClub/Rodolfo Mori: navegação fixa, apresentação central com foto, fundo escuro, detalhes animados, cartões translúcidos, galeria de projetos e seção de contato. O conteúdo foi ampliado para cumprir a atividade do 4º bimestre.
+Portfólio acadêmico e pessoal desenvolvido do zero com HTML5, CSS3, JavaScript e Bootstrap 5. A direção visual usa como referência a estrutura de portfólio do tutorial do DevClub/Rodolfo Mori: navegação fixa, apresentação central com foto, fundo escuro, detalhes animados, cartões translúcidos, galeria de projetos e seção de contato.
 
 ## Painel administrativo e CRUD
 
