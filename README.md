@@ -19,3 +19,4 @@ As mensagens ficam no navegador atual e não são sincronizadas entre dispositiv
 - Atividades de TI: `https://github.com/Arkor9191/03TI-Atividades`
 - Sistema de Organização Logística: `https://github.com/Arkor9191/OrganizacaoLogistica/tree/main`.
 - Sistema de Estoque para Confeitaria: a demonstração em vídeo está incluída no projeto.
+- Link do Site: `https://arkor9191.github.io/Portifolio-Atividade/#inicio`
